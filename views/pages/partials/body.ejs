@@ -1,0 +1,87 @@
+<% { let titulo = 'Dashboard'}%>
+<div class=" bodyDasbord">
+
+    <div class="blue row titulo">
+        <div class="col-12">
+            Cadastros Gerais <%= titulo%>
+        </div>
+    </div>
+
+    <div class="green row central">
+
+        <div class="yellow col-4 menu">
+            <div class="container row">
+                <div class="col-12">Menu</div>
+            </div>
+            <div class="grey row">
+                <div class="col-12">
+                    
+                    
+                    <ul class="collapsible">
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">filter_drama</i>Agrupamentos</div>
+                          <div class="collapsible-body"><span>Tipos</span></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                      </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-8">
+            
+            <%- include('cadastros/tipos') %>
+            <div class="card Medium">
+                <div class="card-content">
+                    <div id="divBusca">
+                        <img src="search3.png" alt="Buscar..."/>
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                        <button id="btnBusca">Buscar</button>
+                      </div>
+                </div>
+                <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#test4">Test 1</a></li>
+                    <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+                    <li class="tab"><a href="#test6">Test 3</a></li>
+                </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                <div id="test4">
+          
+                </div>
+                <div id="test5">Test 2</div>
+                <div id="test6">Test 3</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="indigo row rodape">
+        <footer>
+            <div class="footer-copyright">
+                <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+              </div>
+        </footer>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, '');
+  });
+</script>

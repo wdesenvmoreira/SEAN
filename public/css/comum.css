@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/* Documento css para página home */
+@font-face {
+    font-family: NotoSansJP-Bold;
+    src: url('./fonts/NotoSansJP-Bold.otf');
+    font-family: NotoSansJP-Ligth;
+    src: url('./fonts/NotoSansJP-Light.otf');
+}
+
+.divLogin {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    box-shadow: rgb(50, 56, 56);   
+    color: #05c6d4 ;
+    
+}
+
+
+
+table{
+    display: none;
+    max-width: 100%;
+    /* overflow: scroll */
+}
+
+table  tr{
+    font-size: 0.8rem;
+}
+
+.painelForm{
+    background:#21252981;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.rodape{
+    margin: 0vh;
+    padding: 0.3vw;
+}
+.bodyDasbord{
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+
+
+}
+.central{
+   height: 90vh;
+   margin: 0vh;
+   padding-top: 0.5vw;
+}
+.titulo{
+    height: 5vw;
+    margin: 0vh;
+    padding: 0.5vh;
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    scrollbar-width: none;
+}
+
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+
+#campoTXT{
+    border:none;
+   
+    height:32px;
+    border-radius:7px 7px 7px 7px;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+.cx{
+    width: 50%;
+}
+
