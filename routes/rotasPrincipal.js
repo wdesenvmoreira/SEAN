@@ -28,5 +28,10 @@ const rotaPrincipal = (app) =>{
   app.get('/principal',(req, res) => {
         res.render('menuInicial')
     }) 
+
+    app.get('/Cadastros',(req, res) => {
+        let titulo = 'Cadastros Gerais'
+        res.render('pages/partials/cadastros',{titulo})
+    })
 }
 module.exports = rotaPrincipal

@@ -1,0 +1,62 @@
+.cxForm{
+   max-height: 50%;
+   max-width: 80%;
+   margin-left: 1vw;
+   border-radius: 5px;
+}
+
+.brrTitulosForm{
+    min-height: 10%;
+    max-height: 20%;
+    background-color: cadetblue;
+    margin-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cxCentroForm{
+    margin-bottom: 0;
+    
+}
+
+.cxMenuForm{
+    margin-top: 1vh;
+    border-radius: 5px;
+
+}
+
+.cxRodapeForm{
+    min-height: 10%;
+    max-height: 20%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cxDadosForm{
+
+}
+
+.cxMenuCentro{
+    margin: 0 ;
+    border-radius: 5px;
+    margin: 0;
+padding: 0;
+    
+}
+.cxMenuItem{
+    margin: 0;
+    padding: 0;
+}
+.cxFormBusca{
+
+    max-width: 60%;
+    border-radius: 10px;
+
+    padding: 0;
+}
+.butn{
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue; 
+}

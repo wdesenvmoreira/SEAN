@@ -1,24 +1,24 @@
-<% { let titulo = 'Dashboard'}%>
+
 <div class=" bodyDasbord">
 
-    <div class="blue row titulo">
+    <div class=" blue darken-4 row titulo">
         <div class="col-12">
-            Cadastros Gerais <%= titulo%>
+             <%= titulo%>
         </div>
     </div>
 
-    <div class="green row central">
+    <div class=" blue-grey lighten-4 row central">
 
-        <div class="yellow col-4 menu">
+        <div class="green lighten-5 col-3 cxMenuCentro z-depth-4">
             <div class="container row">
                 <div class="col-12">Menu</div>
             </div>
-            <div class="grey row">
-                <div class="col-12">
+            <div class=" green lighten-5 row cxMenuItem">
+                <div class="col-12 cxMenuItem">
                     
                     
-                    <ul class="collapsible">
-                        <li>
+                    <ul class="collapsible cxMenuItem">
+                        <li class="cxMenuItem">
                           <div class="collapsible-header"><i class="material-icons">filter_drama</i>Agrupamentos</div>
                           <div class="collapsible-body"><span>Tipos</span></div>
                         </li>
@@ -36,32 +36,11 @@
             </div>
         </div>
 
-        <div class="col-8">
+        <div class="col-9">
             
             <%- include('cadastros/tipos') %>
-            <div class="card Medium">
-                <div class="card-content">
-                    <div id="divBusca">
-                        <img src="search3.png" alt="Buscar..."/>
-                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                        <button id="btnBusca">Buscar</button>
-                      </div>
-                </div>
-                <div class="card-tabs">
-                <ul class="tabs tabs-fixed-width">
-                    <li class="tab"><a href="#test4">Test 1</a></li>
-                    <li class="tab"><a class="active" href="#test5">Test 2</a></li>
-                    <li class="tab"><a href="#test6">Test 3</a></li>
-                </ul>
-                </div>
-                <div class="card-content grey lighten-4">
-                <div id="test4">
-          
-                </div>
-                <div id="test5">Test 2</div>
-                <div id="test6">Test 3</div>
-                </div>
-            </div>
+           
+            
             
         </div>
     </div>
@@ -84,4 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems, '');
   });
+
+
 </script>
