@@ -1,31 +1,63 @@
-<div class="cxForm blue-grey darken-1">
+<div class="cxForm blue-grey z-depth-3 ">
   <div class="row brrTitulosForm">
-    <div class="col-12 ">
+    <div class="col-10 ">
       Tipos
     </div>
-  </div>
-  <div class="row cxCentroForm blue ">
-    <div class="col-2 container cxMenuForm green">
-      <div><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Localizar</a></div>
-      <ul>
-        <li><button>Incluir</button></li>
-        <li><button>Cancelar</button></li>
-        <li><button>Relatórios</button></li>
-        <li><button>Gravar</button></li>
+    <div class="col-2 btunFechar">
+      [X]
+    </div>
+  </div><!--Barra de Títulos   -->
+
+  <div class="row cxCentroForm  grey lighten-2 ">
+    <div class="col-2 container cxMenuForm grey lighten-2">
+      
+      <ul class="cxMenuItem ">
+        <li><a class="waves-effect waves-light btn butn modal-trigger" href="#modal1">Localizar</a></li>
+        <li><a class="waves-effect waves-light btn butn" href="#">Incluir</a></li>
+        <li><a class="waves-effect waves-light btn butn" href="#">Cancelar</a></li>
+        <li><a class="waves-effect waves-light btn butn" href="#">Relatórios</a></li>
+        <li><a class="waves-effect waves-light btn butn" href="#">Gravar</a></li>
+        <li><a class="waves-effect waves-light btn butn" href="#">Sair</a></li>
       </ul>
-    </div>
-    <div class="col-10 cxDadosForm blue-grey">
 
+    </div><!--Caixa Menu   -->
+ 
+    <div class="col-10  cxConteudo">
+      <div class="row cxConteudo" >
+        <div class="col-6 cxDadosForm ">
+          <form action="" method="post">
+            <label for="id_tipo">Código: </label> <input class="inputId" type="id_tipo" value="0" disabled></br>
+            <label for="tipo">Tipo: </label> <input class="cxDadosInput campoEdit" type="tipo" value=""></br>
+            <label for="agrupamento">Agrupamento: </label> 
+            <select id="agrupamento" class="browser-default cxDadosInput">
+              <option value="" disabled selected></option>
+              <option value="1">Geral</option>
+              <option value="2">Estoque</option>
+              <option value="3">Pessoas</option>
+            </select>
+            <br>
+          </form>
+          
+        </div>
+        <div class="col-6 cxDadosForm  ">
+          
+        </div>
 
-    </div>
-  </div>
-  <div class="row cxRodapeForm indigo">
-    <div class="col-3">|<</div>
-    <div class="col-3"><</div>
-    <div class="col-3">></div>
-    <div class="col-3">>|</div>
-  </div>
-</div>
+      </div><!--Conteudo e Dados Sem Rodape  -->
+ 
+      <div class="row cxRodapeForm cxConteudo ">
+        <div class="col-3">Primeiro</div>
+        <div class="col-3">Proximo</div>
+        <div class="col-3">Anterior</div>
+        <div class="col-3">Ultimo</div>
+      </div>
+       
+ 
+    </div><!--Barra de Dados e Campos  Rodape -->
+ 
+  </div> <!-- Barra de Conteudo-->
+</div><!--Principal do Formulario   -->
+ 
 
 
 

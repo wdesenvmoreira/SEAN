@@ -6,22 +6,34 @@
 }
 
 .brrTitulosForm{
-    min-height: 10%;
-    max-height: 20%;
+    min-height: 20%;
+    max-height: 30%;
+    height: 4vh;
     background-color: cadetblue;
     margin-bottom: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center 
 }
 
 .cxCentroForm{
-    margin-bottom: 0;
-    
+
+    padding-left: 0.2vw;
+    padding-bottom: 00.2vw;
+    padding-right: 00.2vw;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
 
 .cxMenuForm{
-    margin-top: 1vh;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
     border-radius: 5px;
+    padding: 0;
+   
 
 }
 
@@ -30,22 +42,70 @@
     max-height: 20%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    background-color: rgb(189, 202, 212);
+
 }
 
 .cxDadosForm{
+    padding-top: 1.5vh;
+    font-size: 1.35em;
+    background-color: rgb(189, 202, 212);
+    
 
+}
+.cxDadosForm label{
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 0.6vh;
+    color: black;
+    padding: 0;
+   
+
+}
+
+.cxDadosInput{
+    width: 100%;
+    border-radius: 3px;
+    border: 0;
+    margin-left: 0vw;
+    padding-bottom: 0.4vh;
+
+  
+   
+}
+
+.campoEdit{
+    text-indent: 3%;
+}
+.inputId{
+    width: 100px;
+    box-shadow: none;
+    border-radius: 5px;
+    border: 0;
+    text-align: start;
+    text-indent: 5%;
+    
 }
 
 .cxMenuCentro{
-    margin: 0 ;
     border-radius: 5px;
     margin: 0;
-padding: 0;
+    padding: 0;
     
 }
 .cxMenuItem{
+
     margin: 0;
-    padding: 0;
+    padding-right: 0.7vw;
+    margin-left: 0.1vw; 
+
+}
+.cxMenuCentral{
+
+    margin: 0;
+
+
 }
 .cxFormBusca{
 
@@ -55,8 +115,23 @@ padding: 0;
     padding: 0;
 }
 .butn{
-    border-radius: 20px;
-    margin: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0.5vh;
     padding: 0;
-    background-color:cadetblue; 
+    background-color: rgb(69, 130, 192) ; 
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+.cxConteudo{
+    margin-bottom: 0;
+    background-color: rgb(189, 202, 212);
+    
+}
+
+.btunFechar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ; 
 }
